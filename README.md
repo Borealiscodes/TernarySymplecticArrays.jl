@@ -11,15 +11,21 @@ Unlike standard numerical arrays that process arbitrary floating-point densities
 \(\mathcal{T}=\{-1,0,+1\}\)
 By moving mathematical processing into static types, memory layout allocations drop to zero, execution pathways become perfectly monotonic, and the logical vacuum state (\(\mathbfit{\tau }_{0}\)) is structurally isolated from floating-point drift cascades or probability-smearing noise floors.
    Continuous Softmax Mapping Layer (Deconstructed)
+   <pre> 
+      
    [ ℝ^80 Manifold ] ──(σ)──> [ Rank Deficiency: det(J) = 0 ] ──> Vertex Snapping Failure
                                        │
                                        ▼ (Discrete Remediation)
    TernarySymplecticArrays.jl Compiler Layer
    [ StaticArrays Layout ] ──(Ψ*)──> [ Parametric Invariants: det(J_Ψ) = 1 ] ──> Safe Tracking Lock
 
+   </pre>
+   
 📁 Repository Layout
 
 text
+<pre> 
+
 TernarySymplecticArrays.jl/
 ├── LICENSE                    # Kinetic-Collapse Autonomous Safeguard & Non-Harm License v1.0
 ├── README.md                  # System specifications and performance briefs
@@ -35,7 +41,8 @@ TernarySymplecticArrays.jl/
 │   └── Pullbacks.jl           # Type-enforced symplectic transformation loops
 └── tests/                     # Validation Diagnostics
     └── RunTests.jl            # Arithmetic correctness and allocation benchmarks
-Use code with caution.
+
+</pre>
 
 🧮 Implementation Vector: Compile-Time Verification
 
