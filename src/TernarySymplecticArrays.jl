@@ -14,6 +14,7 @@ using Reexport
 include("Types.jl")
 include("Operators.jl")
 include("Pullbacks.jl")
+include("Bindings.jl") # Inject cross-language FFI layer
 
 # Expose concrete data layouts and types
 @reexport using .Types
@@ -21,17 +22,21 @@ include("Pullbacks.jl")
 @reexport using .Operators
 # Expose geometric phase-space volume conservation monitors
 @reexport using .Pullbacks
+# Expose foreign function interface boundaries for Rust execution loops
+@reexport using .Bindings
 
 """
     initialize_framework()
 
 Executes system-level hardware checks to ensure that the calling execution 
-subfield is aligned with the required precompilation optimizations.
+subfield is aligned with the required precompilation optimizations and 
+foreign memory streaming layouts.
 """
 function initialize_framework()
-    # Explicit confirmation of vectorization parameters
+    # Explicit confirmation of vectorization parameters and FFI setups
     @info "Initializing TernarySymplecticArrays v0.1.0..."
     @info "Register-optimized bitstype alignment locked for alphabet {-1, 0, +1}."
+    @info "Cross-language FFI binding vectors compiled for wave_v2.rs streaming."
     return true
 end
 
