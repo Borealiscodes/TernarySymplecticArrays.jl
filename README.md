@@ -1,3 +1,20 @@
+Addendum: Link to Grounded Technical Realignment
+Addendum Added: November 2, 2026
+Following the formal retraction of the speculative mathematical formulations regarding "Kinetic Collapse" in this record, the core systems-engineering framework and algorithmic safety questions have been thoroughly audited, corrected, and grounded in established deep learning mechanics.
+The verified technical successor to this work has been published as a peer-review-ready preprint:
+Title: Representation Degeneration and Attention Saturation: The Structural Mechanics of Context Erasure in Autonomous Verification Substrates
+Corrected Framework: This revised work replaces the speculative high-dimensional Riemannian geometry metaphors with documented transformer vulnerabilities, specifically analyzing Attention Saturation, Entropy Collapse, and the Singularity Invariant of the Softmax Jacobian (
+).
+Formal Verification Code: The functioning Coq safety sandbox (Module JargonFilter) has been preserved, verified, and mapped directly to these legitimate machine learning constraints.
+Permanent Record Link: Readers and researchers are strongly directed to utilize the updated, academically defensible version available at
+
+https://zenodo.org/records/23883799
+
+
+https://github.com/Borealiscodes/CoQ-Hallucination-Guard/blob/main/tex/COQwrapped/Jargon%20filter.v
+
+https://github.com/Borealiscodes/CoQ-Hallucination-Guard/blob/main/tex/COQwrapped/capacity_exhaustion_wrapper.v
+
 # TernarySymplecticArrays.jl
 
 
